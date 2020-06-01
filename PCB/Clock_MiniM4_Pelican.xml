@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Jan\Documents\GitHub\Stemma_Host_FeatherWing\PCB\Stemma_Host_FeatherWing.sch</source>
+    <date>11/26/2019 10:47:14 PM</date>
+    <tool>Eeschema (5.0.0-rc2-dev-444-g2974a2c10)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Stemma_Host_FeatherWing</title>
+        <company>Cedar Grove Studios</company>
+        <rev>v01</rev>
+        <date>2019-11-25</date>
+        <source>Stemma_Host_FeatherWing.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>STEMMA</value>
+      <footprint>Connectors_JST:JST_PH_S4B-PH-SM4-TB_04x2.00mm_Angled</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C95ED81</tstamp>
+    </comp>
+    <comp ref="RN1">
+      <value>4x10K</value>
+      <footprint>Resistors_SMD:R_Array_Convex_4x0603</footprint>
+      <libsource lib="device" part="R_Pack04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA14FC</tstamp>
+    </comp>
+    <comp ref="JMP1">
+      <value>SCL_RX</value>
+      <footprint>Connectors:GS3</footprint>
+      <libsource lib="conn" part="GS3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDFBE5A</tstamp>
+    </comp>
+    <comp ref="JMP2">
+      <value>SDA_TX</value>
+      <footprint>Connectors:GS3</footprint>
+      <libsource lib="conn" part="GS3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDFBEE9</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>GRN</value>
+      <footprint>Adafruit:Cedar_Grove_logo_lighted</footprint>
+      <libsource lib="device" part="LED_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E41E2F6</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E41E3CE</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>Feather_M4_Express</value>
+      <footprint>Adafruit:Adafruit_Feather_M4_Express_bare</footprint>
+      <libsource lib="Adafruit" part="Feather_M4_Express"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDD766A</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>STEMMA-QT</value>
+      <footprint>Connectors_JST:JST_SH_SM04B-SRSS-TB_04x1.00mm_Angled</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEAC17A</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>STEMMA-QT</value>
+      <footprint>Connectors_JST:JST_SH_SM04B-SRSS-TB_04x1.00mm_Angled</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEAC218</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>STEMMA</value>
+      <footprint>Connectors_JST:JST_PH_S4B-PH-SM4-TB_04x2.00mm_Angled</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEAE527</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>BSS138DW-Y-F_ALT</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <libsource lib="Adafruit" part="BSS138DW-Y-F_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF8E7C6</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E05AEC7</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>MBR120</value>
+      <footprint>Diodes_SMD:D_SOD-123F</footprint>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDE695E</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>MBR120</value>
+      <footprint>Diodes_SMD:D_SOD-123F</footprint>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDE6AAE</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Adafruit:TL3330AF_SPST_BUTTON_RT-ANGLE_7.8mm_2.5mm_2.5mm</footprint>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE5DC6A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Adafruit" part="BSS138DW-Y-F_ALT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BSS138DW-Y-F_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S2" type="unspc"/>
+        <pin num="2" name="G2" type="unspc"/>
+        <pin num="3" name="D1" type="unspc"/>
+        <pin num="4" name="S1" type="unspc"/>
+        <pin num="5" name="G1" type="unspc"/>
+        <pin num="6" name="D2" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector, single row, 01x04, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1_Small">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky_Small">
+      <description>Schottky diode, small symbol</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit" part="Feather_M4_Express">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Feather_M4_Express</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RST" type="input"/>
+        <pin num="2" name="3V" type="power_out"/>
+        <pin num="3" name="AREF" type="input"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="~~A0" type="BiDi"/>
+        <pin num="6" name="~~A1" type="BiDi"/>
+        <pin num="7" name="A2" type="BiDi"/>
+        <pin num="8" name="A3" type="BiDi"/>
+        <pin num="9" name="A4" type="BiDi"/>
+        <pin num="10" name="A5" type="BiDi"/>
+        <pin num="11" name="SCK" type="BiDi"/>
+        <pin num="12" name="MO" type="BiDi"/>
+        <pin num="13" name="MI" type="BiDi"/>
+        <pin num="14" name="RX" type="BiDi"/>
+        <pin num="15" name="TX" type="BiDi"/>
+        <pin num="16" name="D4" type="BiDi"/>
+        <pin num="17" name="BAT" type="power_out"/>
+        <pin num="18" name="EN" type="input"/>
+        <pin num="19" name="USB" type="power_out"/>
+        <pin num="20" name="D13" type="BiDi"/>
+        <pin num="21" name="D12" type="BiDi"/>
+        <pin num="22" name="D11" type="BiDi"/>
+        <pin num="23" name="D10" type="BiDi"/>
+        <pin num="24" name="D9" type="BiDi"/>
+        <pin num="25" name="D6" type="BiDi"/>
+        <pin num="26" name="D5" type="BiDi"/>
+        <pin num="27" name="SCL" type="BiDi"/>
+        <pin num="28" name="SDA" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="GS3">
+      <description>3-pin jumper/solder bridge</description>
+      <footprints>
+        <fp>GS*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">GS3</field>
+        <field name="Footprint">Connectors:GS3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="passive"/>
+        <pin num="2" name="G2" type="passive"/>
+        <pin num="3" name="G3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED_Small">
+      <description>LED, small symbol</description>
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Pack04">
+      <description>4 Resistor network, parallel topology, DIP package</description>
+      <footprints>
+        <fp>DIP*</fp>
+        <fp>SOIC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Pack04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R1.1" type="passive"/>
+        <pin num="2" name="R2.1" type="passive"/>
+        <pin num="3" name="R3.1" type="passive"/>
+        <pin num="4" name="R4.1" type="passive"/>
+        <pin num="5" name="R4.2" type="passive"/>
+        <pin num="6" name="R3.2" type="passive"/>
+        <pin num="7" name="R2.2" type="passive"/>
+        <pin num="8" name="R1.2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Adafruit">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Adafruit.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/device.lib</uri>
+    </library>
+    <library logical="switches">
+      <uri>C:\Program Files\KiCad\share\kicad\library/switches.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="SW1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J4" pin="4"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J3" pin="4"/>
+      <node ref="C1" pin="2"/>
+      <node ref="M1" pin="4"/>
+    </net>
+    <net code="2" name="/+V">
+      <node ref="RN1" pin="4"/>
+      <node ref="J4" pin="3"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J1" pin="3"/>
+      <node ref="RN1" pin="1"/>
+    </net>
+    <net code="3" name="/D4">
+      <node ref="M1" pin="16"/>
+    </net>
+    <net code="4" name="/~~A0">
+      <node ref="M1" pin="5"/>
+    </net>
+    <net code="5" name="/Aref">
+      <node ref="M1" pin="3"/>
+    </net>
+    <net code="6" name="/~~A1">
+      <node ref="M1" pin="6"/>
+    </net>
+    <net code="7" name="/TX">
+      <node ref="JMP2" pin="3"/>
+      <node ref="M1" pin="15"/>
+    </net>
+    <net code="8" name="/RX">
+      <node ref="M1" pin="14"/>
+      <node ref="JMP1" pin="3"/>
+    </net>
+    <net code="9" name="/D5">
+      <node ref="M1" pin="26"/>
+    </net>
+    <net code="10" name="/EN">
+      <node ref="M1" pin="18"/>
+    </net>
+    <net code="11" name="/D13-LED">
+      <node ref="M1" pin="20"/>
+    </net>
+    <net code="12" name="/D12">
+      <node ref="M1" pin="21"/>
+    </net>
+    <net code="13" name="/D11">
+      <node ref="M1" pin="22"/>
+    </net>
+    <net code="14" name="/D10">
+      <node ref="M1" pin="23"/>
+    </net>
+    <net code="15" name="/D9">
+      <node ref="M1" pin="24"/>
+    </net>
+    <net code="16" name="/D6">
+      <node ref="M1" pin="25"/>
+    </net>
+    <net code="17" name="/MI">
+      <node ref="M1" pin="13"/>
+    </net>
+    <net code="18" name="/MO">
+      <node ref="M1" pin="12"/>
+    </net>
+    <net code="19" name="/SCK">
+      <node ref="M1" pin="11"/>
+    </net>
+    <net code="20" name="/A5">
+      <node ref="M1" pin="10"/>
+    </net>
+    <net code="21" name="/A4">
+      <node ref="M1" pin="9"/>
+    </net>
+    <net code="22" name="/A3">
+      <node ref="M1" pin="8"/>
+    </net>
+    <net code="23" name="/A2">
+      <node ref="M1" pin="7"/>
+    </net>
+    <net code="24" name="/BAT">
+      <node ref="M1" pin="17"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="25" name="/~RST">
+      <node ref="M1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="26" name="/SCL">
+      <node ref="U1" pin="4"/>
+      <node ref="M1" pin="27"/>
+      <node ref="RN1" pin="6"/>
+      <node ref="JMP1" pin="1"/>
+      <node ref="JMP1" pin="2"/>
+    </net>
+    <net code="27" name="/SDA">
+      <node ref="M1" pin="28"/>
+      <node ref="RN1" pin="7"/>
+      <node ref="JMP2" pin="2"/>
+      <node ref="JMP2" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="28" name="/USB">
+      <node ref="D3" pin="2"/>
+      <node ref="M1" pin="19"/>
+    </net>
+    <net code="29" name="/STEMMA_SDA">
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="RN1" pin="8"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="30" name="/STEMMA_SCL">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="RN1" pin="5"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="31" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="32" name="+3V3">
+      <node ref="M1" pin="2"/>
+      <node ref="RN1" pin="3"/>
+      <node ref="RN1" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+  </nets>
+</export>
