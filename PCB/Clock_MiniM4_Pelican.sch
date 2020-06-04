@@ -1601,61 +1601,21 @@ $EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 5E7D5EFC
-P 5550 4075
-F 0 "#PWR0107" H 5550 3825 50  0001 C CNN
-F 1 "GND" H 5555 3902 50  0000 C CNN
-F 2 "" H 5550 4075 50  0001 C CNN
-F 3 "" H 5550 4075 50  0001 C CNN
-	1    5550 4075
+P 5275 3750
+F 0 "#PWR0107" H 5275 3500 50  0001 C CNN
+F 1 "GND" H 5280 3577 50  0000 C CNN
+F 2 "" H 5275 3750 50  0001 C CNN
+F 3 "" H 5275 3750 50  0001 C CNN
+	1    5275 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5125 2275 5125 2500
-$Comp
-L dk_Alarms-Buzzers-and-Sirens:PKMCS0909E4000-R1 BZ1
-U 1 1 5E7D72C2
-P 5325 2275
-F 0 "BZ1" H 5553 2378 60  0000 L CNN
-F 1 "PIEZO_SPEAKER" H 5553 2272 60  0000 L CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 5525 2475 60  0001 L CNN
-F 3 "https://www.murata.com/~/media/webrenewal/products/sound/sounder/vppt-buzj083-d.ashx" H 5525 2575 60  0001 L CNN
-F 4 "490-9647-1-ND" H 5525 2675 60  0001 L CNN "Digi-Key_PN"
-F 5 "PKMCS0909E4000-R1" H 5525 2775 60  0001 L CNN "MPN"
-F 6 "Audio Products" H 5525 2875 60  0001 L CNN "Category"
-F 7 "Alarms, Buzzers, and Sirens" H 5525 2975 60  0001 L CNN "Family"
-F 8 "https://www.murata.com/~/media/webrenewal/products/sound/sounder/vppt-buzj083-d.ashx" H 5525 3075 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/murata-electronics-north-america/PKMCS0909E4000-R1/490-9647-1-ND/4878401" H 5525 3175 60  0001 L CNN "DK_Detail_Page"
-F 10 "AUDIO PIEZO TRANSDUCER 12.5V SMD" H 5525 3275 60  0001 L CNN "Description"
-F 11 "Murata Electronics North America" H 5525 3375 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5525 3475 60  0001 L CNN "Status"
-	1    5325 2275
-	1    0    0    -1  
-$EndComp
 NoConn ~ 3775 5775
 NoConn ~ 3775 5675
 NoConn ~ 3775 5575
 NoConn ~ 3775 5175
 NoConn ~ 3775 5075
-$Comp
-L dk_Encoders:PEC11R-4215F-S0024 S1
-U 1 1 5E7DEB41
-P 8150 2750
-F 0 "S1" H 8425 3050 60  0000 C CNN
-F 1 "PEC11R-4215F-S0024" H 8900 2950 60  0000 C CNN
-F 2 "digikey-footprints:Rotary_Encoder_Switched_PEC11R_mntg_hole" H 8350 2950 60  0001 L CNN
-F 3 "http://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf" H 8350 3050 60  0001 L CNN
-F 4 "PEC11R-4215F-S0024-ND" H 8350 3150 60  0001 L CNN "Digi-Key_PN"
-F 5 "PEC11R-4215F-S0024" H 8350 3250 60  0001 L CNN "MPN"
-F 6 "Sensors, Transducers" H 8350 3350 60  0001 L CNN "Category"
-F 7 "Encoders" H 8350 3450 60  0001 L CNN "Family"
-F 8 "http://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf" H 8350 3550 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/bourns-inc/PEC11R-4215F-S0024/PEC11R-4215F-S0024-ND/4499665" H 8350 3650 60  0001 L CNN "DK_Detail_Page"
-F 10 "ENCODER ROTARY" H 8350 3750 60  0001 L CNN "Description"
-F 11 "Bourns Inc." H 8350 3850 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8350 3950 60  0001 L CNN "Status"
-	1    8150 2750
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0108
 U 1 1 5E7E1E75
@@ -1667,74 +1627,25 @@ F 3 "" H 5125 2500 50  0001 C CNN
 	1    5125 2500
 	1    0    0    -1  
 $EndComp
-$Comp
-L conn:BARREL_JACK J1
-U 1 1 5E7CF0FC
-P 5650 1400
-F 0 "J1" H 5631 1725 50  0000 C CNN
-F 1 "5V_POWER_INPUT" H 5631 1634 50  0000 C CNN
-F 2 "Adafruit:2.1mm_THT_DC_panel_power_conn_610" H 5650 1400 50  0001 C CNN
-F 3 "" H 5650 1400 50  0001 C CNN
-	1    5650 1400
-	-1   0    0    -1  
-$EndComp
 Text Label 4200 2575 0    50   ~ 0
 USB
 $Comp
 L power:GND #PWR0109
 U 1 1 5E7CFDAD
-P 5125 1550
-F 0 "#PWR0109" H 5125 1300 50  0001 C CNN
-F 1 "GND" H 5130 1377 50  0000 C CNN
-F 2 "" H 5125 1550 50  0001 C CNN
-F 3 "" H 5125 1550 50  0001 C CNN
-	1    5125 1550
+P 5125 1450
+F 0 "#PWR0109" H 5125 1200 50  0001 C CNN
+F 1 "GND" H 5130 1277 50  0000 C CNN
+F 2 "" H 5125 1450 50  0001 C CNN
+F 3 "" H 5125 1450 50  0001 C CNN
+	1    5125 1450
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5125 1550 5125 1500
+	5125 1450 5125 1400
 Wire Wire Line
-	5125 1500 5350 1500
-Wire Wire Line
-	5550 3775 5550 3925
-Wire Wire Line
-	6050 3925 6050 3325
-Wire Wire Line
-	6050 2775 5650 2775
-Wire Wire Line
-	5650 2775 5650 2875
-Wire Wire Line
-	5550 3925 6050 3925
-Connection ~ 5550 3925
-Wire Wire Line
-	5550 3925 5550 4075
-Wire Wire Line
-	5950 3325 6050 3325
-Connection ~ 6050 3325
-Wire Wire Line
-	6050 3325 6050 2775
-Wire Wire Line
-	5450 3775 5225 3775
-Wire Wire Line
-	5225 3775 5225 3175
-Wire Wire Line
-	3775 3175 5225 3175
-Wire Wire Line
-	5650 3775 5650 3850
-Wire Wire Line
-	5650 3850 5125 3850
-Wire Wire Line
-	5125 3850 5125 3275
+	5125 1400 5350 1400
 Wire Wire Line
 	3775 3275 5125 3275
-Wire Wire Line
-	5225 3075 5225 2775
-Wire Wire Line
-	5225 2775 5450 2775
-Wire Wire Line
-	5450 2775 5450 2875
-Wire Wire Line
-	3775 3075 5225 3075
 $Comp
 L Adafruit_custom:4-Bit_Level_Converter_757 M3
 U 1 1 5E7DB7EA
@@ -1797,7 +1708,6 @@ Wire Wire Line
 	4825 2175 5125 2175
 Wire Wire Line
 	3775 2675 4825 2675
-NoConn ~ 5350 1400
 Wire Wire Line
 	3775 5875 4825 5875
 Wire Wire Line
@@ -1920,36 +1830,80 @@ Wire Notes Line
 Text Notes 8675 4475 0    50   ~ 0
 14-Segment Alphanumeric LED Display
 $Comp
-L Connector:Conn_01x02_Female J?
+L Connector:Conn_01x02_Female J1
 U 1 1 5ED42D34
-P 6750 1300
-F 0 "J?" H 6778 1276 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 6778 1185 50  0000 L CNN
-F 2 "" H 6750 1300 50  0001 C CNN
-F 3 "~" H 6750 1300 50  0001 C CNN
-	1    6750 1300
+P 5550 1300
+F 0 "J1" H 5250 1500 50  0000 L CNN
+F 1 "5V_POWER_INPUT" H 5250 1425 50  0000 L CNN
+F 2 "" H 5550 1300 50  0001 C CNN
+F 3 "~" H 5550 1300 50  0001 C CNN
+	1    5550 1300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J?
-U 1 1 5ED43306
-P 6750 2200
-F 0 "J?" H 6778 2176 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 6778 2085 50  0000 L CNN
-F 2 "" H 6750 2200 50  0001 C CNN
-F 3 "~" H 6750 2200 50  0001 C CNN
-	1    6750 2200
+L dk_Encoders:PEC11R-4215F-S0024 S1
+U 1 1 5ED8A800
+P 5675 3175
+F 0 "S1" H 5625 3562 60  0000 C CNN
+F 1 "PEC11R-4215F-S0024" H 5625 3456 60  0000 C CNN
+F 2 "digikey-footprints:Rotary_Encoder_Switched_PEC11R" H 5875 3375 60  0001 L CNN
+F 3 "http://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf" H 5875 3475 60  0001 L CNN
+F 4 "PEC11R-4215F-S0024-ND" H 5875 3575 60  0001 L CNN "Digi-Key_PN"
+F 5 "PEC11R-4215F-S0024" H 5875 3675 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 5875 3775 60  0001 L CNN "Category"
+F 7 "Encoders" H 5875 3875 60  0001 L CNN "Family"
+F 8 "http://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf" H 5875 3975 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/bourns-inc/PEC11R-4215F-S0024/PEC11R-4215F-S0024-ND/4499665" H 5875 4075 60  0001 L CNN "DK_Detail_Page"
+F 10 "ENCODER ROTARY" H 5875 4175 60  0001 L CNN "Description"
+F 11 "Bourns Inc." H 5875 4275 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5875 4375 60  0001 L CNN "Status"
+	1    5675 3175
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5125 3375 5125 3275
+Wire Wire Line
+	5275 3475 5275 3650
+Wire Wire Line
+	5275 3650 5975 3650
+Wire Wire Line
+	5975 3650 5975 3075
+Connection ~ 5275 3650
+Wire Wire Line
+	5275 3650 5275 3750
 $Comp
-L Device:Rotary_Encoder_Switch S1
-U 1 1 5ED4444F
-P 5550 3300
-F 0 "S1" V 5596 3070 50  0000 R CNN
-F 1 "PEC11R-4215F-S0024" V 5505 3070 50  0000 R CNN
-F 2 "" H 5400 3460 50  0001 C CNN
-F 3 "~" H 5550 3560 50  0001 C CNN
-	1    5550 3300
-	0    -1   -1   0   
+L dk_Alarms-Buzzers-and-Sirens:PS1240P02BT BZ?
+U 1 1 5ED7473A
+P 5225 2275
+F 0 "BZ?" H 5565 2373 60  0000 L CNN
+F 1 "PS1240P02BT" H 5565 2267 60  0000 L CNN
+F 2 "digikey-footprints:Piezo_Transducer_THT_PS1240P02BT" H 5425 2475 60  0001 L CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/piezoelectronic_buzzer_ps_en.pdf" H 5425 2575 60  0001 L CNN
+F 4 "445-2525-1-ND" H 5425 2675 60  0001 L CNN "Digi-Key_PN"
+F 5 "PS1240P02BT" H 5425 2775 60  0001 L CNN "MPN"
+F 6 "Audio Products" H 5425 2875 60  0001 L CNN "Category"
+F 7 "Alarms, Buzzers, and Sirens" H 5425 2975 60  0001 L CNN "Family"
+F 8 "https://product.tdk.com/info/en/catalog/datasheets/piezoelectronic_buzzer_ps_en.pdf" H 5425 3075 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/tdk-corporation/PS1240P02BT/445-2525-1-ND/935930" H 5425 3175 60  0001 L CNN "DK_Detail_Page"
+F 10 "AUDIO PIEZO TRANSDUCER 30V TH" H 5425 3275 60  0001 L CNN "Description"
+F 11 "TDK Corporation" H 5425 3375 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5425 3475 60  0001 L CNN "Status"
+	1    5225 2275
+	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3775 3075 5375 3075
+Wire Wire Line
+	5875 3075 5975 3075
+Wire Wire Line
+	3775 3175 5375 3175
+Wire Wire Line
+	5125 3375 5375 3375
+Wire Wire Line
+	5275 3475 5375 3475
+Wire Wire Line
+	5275 3475 5275 3275
+Connection ~ 5275 3475
+Wire Wire Line
+	5275 3275 5375 3275
 $EndSCHEMATC

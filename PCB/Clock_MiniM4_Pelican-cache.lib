@@ -243,41 +243,58 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Rotary_Encoder_Switch
+# dk_Alarms-Buzzers-and-Sirens_PS1240P02BT
 #
-DEF Device_Rotary_Encoder_Switch SW 0 10 Y N 1 F N
-F0 "SW" 0 260 50 H V C CNN
-F1 "Device_Rotary_Encoder_Switch" 0 -260 50 H V C CNN
-F2 "" -150 160 50 H I C CNN
-F3 "" 0 260 50 H I C CNN
-$FPLIST
- RotaryEncoder*Switch*
-$ENDFPLIST
+DEF dk_Alarms-Buzzers-and-Sirens_PS1240P02BT BZ 0 0 Y Y 1 F N
+F0 "BZ" 0 200 60 H V L CNN
+F1 "dk_Alarms-Buzzers-and-Sirens_PS1240P02BT" -50 -150 60 H V L CNN
+F2 "digikey-footprints:Piezo_Transducer_THT_PS1240P02BT" 200 200 60 H I L CNN
+F3 "https://product.tdk.com/info/en/catalog/datasheets/piezoelectronic_buzzer_ps_en.pdf" 200 300 60 H I L CNN
+F4 "445-2525-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "PS1240P02BT" 200 500 60 H I L CNN "MPN"
+F6 "Audio Products" 200 600 60 H I L CNN "Category"
+F7 "Alarms, Buzzers, and Sirens" 200 700 60 H I L CNN "Family"
+F8 "https://product.tdk.com/info/en/catalog/datasheets/piezoelectronic_buzzer_ps_en.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/tdk-corporation/PS1240P02BT/445-2525-1-ND/935930" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "AUDIO PIEZO TRANSDUCER 30V TH" 200 1000 60 H I L CNN "Description"
+F11 "TDK Corporation" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
 DRAW
-A -15 -2 108 -899 899 0 1 10 N -15 -110 -15 105
-C -150 0 10 0 1 0 F
-C -15 0 75 0 1 10 N
-C 170 -40 5 0 1 10 N
-C 170 40 5 0 1 10 N
-S -200 200 200 -200 0 1 10 f
-P 2 0 1 10 -25 -70 -25 70 N
-P 2 0 1 10 -15 -70 -15 70 N
-P 2 0 1 10 -5 70 -5 -70 N
-P 2 0 1 10 150 0 135 0 N
-P 2 0 1 10 150 40 150 -40 N
-P 3 0 1 0 -200 -100 -150 -100 -150 -80 N
-P 3 0 1 0 -200 100 -150 100 -150 80 N
-P 3 0 1 10 10 -120 -20 -110 5 -95 N
-P 3 0 1 10 10 115 -20 105 5 90 N
-P 3 0 1 10 200 -100 170 -100 170 -40 N
-P 3 0 1 10 200 100 170 100 170 40 N
-P 4 0 1 0 -200 0 -150 0 -150 -40 -130 -80 N
-P 4 0 1 0 -170 0 -150 0 -150 40 -130 80 N
-X A A -300 100 100 R 50 50 1 1 P
-X B B -300 -100 100 R 50 50 1 1 P
-X C C -300 0 100 R 50 50 1 1 P
-X S1 S1 300 100 100 L 50 50 1 1 P
-X S2 S2 300 -100 100 L 50 50 1 1 P
+A 200 50 71 450 -450 0 1 0 N 250 100 250 0
+A 200 50 112 634 -634 0 1 0 N 250 150 250 -50
+S 0 150 100 -50 0 1 0 f
+P 5 0 1 0 100 100 200 150 200 -50 100 0 100 100 f
+X ~ 1 -100 100 100 R 50 50 1 1 I
+X ~ 2 -100 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# dk_Encoders_PEC11R-4215F-S0024
+#
+DEF dk_Encoders_PEC11R-4215F-S0024 S 0 40 Y Y 1 F N
+F0 "S" -50 225 60 H V C CNN
+F1 "dk_Encoders_PEC11R-4215F-S0024" -50 -390 60 H V C CNN
+F2 "digikey-footprints:Rotary_Encoder_Switched_PEC11R" 200 200 60 H I L CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf" 200 300 60 H I L CNN
+F4 "PEC11R-4215F-S0024-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "PEC11R-4215F-S0024" 200 500 60 H I L CNN "MPN"
+F6 "Sensors, Transducers" 200 600 60 H I L CNN "Category"
+F7 "Encoders" 200 700 60 H I L CNN "Family"
+F8 "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/bourns-inc/PEC11R-4215F-S0024/PEC11R-4215F-S0024-ND/4499665" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "ROTARY ENCODER MECHANICAL 24PPR" 200 1000 60 H I L CNN "Description"
+F11 "Bourns Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -200 185 100 -350 0 1 0 f
+P 2 0 1 0 0 100 100 100 N
+P 3 0 1 0 -200 100 -150 100 0 150 N
+X ~ 1 -300 100 100 R 50 50 1 1 B
+X ~ 2 200 100 100 L 50 50 1 1 B
+X ~ 3 -300 -300 100 R 50 50 1 1 U
+X CH_A A -300 0 100 R 50 50 1 1 B
+X CH_B B -300 -200 100 R 50 50 1 1 B
+X COM C -300 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
