@@ -1,4 +1,4 @@
-# clock_miniM4_bigLED.py  2020-03-29_v01)
+# clock_miniM4_bigLED.py  2020-07-05_v01)
 # Cedar Grove Studios
 # for "BIG" 2.1-inch LED display and rotary encoder time setter
 # uses cedargrove_unit_converter library
@@ -17,13 +17,10 @@ from   cedargrove_clock_builder.bigled_7x4_display import BigLed7x4Display   # 7
 i2c = board.I2C()
 ds3231 = adafruit_ds3231.DS3231(i2c)
 
-# PyBadge battery monitor
-# batt = AnalogIn(board.A6)
-
 # Feather M4 battery monitor and piezo
 batt = AnalogIn(board.VOLTAGE_MONITOR)
 
-# Feather M4 NeoPixel, purple indicator
+# Feather M4 NeoPixel, purple start-up indicator
 pixel = neo.NeoPixel(board.NEOPIXEL,1, brightness=0.01, auto_write=False)
 pixel[0] = (200, 0, 200)
 pixel.write()
@@ -64,7 +61,7 @@ if ds3231.lost_power:
     # ds3231.datetime = repl_disp.set_datetime()
 
     # Set time with LED with rotary encoder
-    led_disp.message = "----"
+    led_disp.alert("----")
 
 min_flag = half_flag = hour_flag = False
 
