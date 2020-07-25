@@ -38,13 +38,14 @@ clock_24_hour  = False      # 24-hour clock = True; 12-hour AM/PM = False
 clock_auto_dst = True       # Automatic US DST = True
 clock_sound    = False      # Sound is active = True
 clock_tick     = True       # One-second tick sound
+clock_bright   = 10         # Display brightness; 0 (low) to 1.0 (high)
 """
 
 ### Instatiate displays
 
 #  4-digit 7-segment LED alphanumeric display
 led_disp  = BigLed7x4Display(clock_zone, clock_24_hour, clock_auto_dst,
-                          clock_sound, brightness=1.0, debug=False)
+                          clock_sound, clock_bright, debug=False)
 
 #  REPL display
 repl_disp = ReplDisplay(clock_zone, clock_24_hour, clock_auto_dst,

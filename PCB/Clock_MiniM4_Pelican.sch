@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Clock_MiniM4_Pelican"
-Date "2020-05-31"
-Rev "v01"
+Date "2020-07-24"
+Rev "v02"
 Comp "Cedar Grove Studios"
 Comment1 ""
 Comment2 ""
@@ -1757,10 +1757,10 @@ Wire Wire Line
 Wire Wire Line
 	6125 4775 7725 4775
 $Comp
-L Adafruit_custom:14-segment_alphanum_LED_FeatherWing U?
+L Adafruit_custom:14-segment_alphanum_LED_FeatherWing U2
 U 1 1 5E842ECF
 P 9425 5875
-F 0 "U?" H 9425 5425 50  0000 L CNN
+F 0 "U2" H 9425 5425 50  0000 L CNN
 F 1 "14-segment_alphanum_LED_FeatherWing" H 8650 5500 50  0000 L CNN
 F 2 "Adafruit:Adafruit_Feather_M4_Express_bare" H 9450 5800 50  0001 C CNN
 F 3 "" H 9450 5800 50  0001 C CNN
@@ -1872,10 +1872,10 @@ Connection ~ 5275 3650
 Wire Wire Line
 	5275 3650 5275 3750
 $Comp
-L dk_Alarms-Buzzers-and-Sirens:PS1240P02BT BZ?
+L dk_Alarms-Buzzers-and-Sirens:PS1240P02BT BZ1
 U 1 1 5ED7473A
 P 5225 2275
-F 0 "BZ?" H 5565 2373 60  0000 L CNN
+F 0 "BZ1" H 5565 2373 60  0000 L CNN
 F 1 "PS1240P02BT" H 5565 2267 60  0000 L CNN
 F 2 "digikey-footprints:Piezo_Transducer_THT_PS1240P02BT" H 5425 2475 60  0001 L CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/piezoelectronic_buzzer_ps_en.pdf" H 5425 2575 60  0001 L CNN
@@ -1906,4 +1906,93 @@ Wire Wire Line
 Connection ~ 5275 3475
 Wire Wire Line
 	5275 3275 5375 3275
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 5F1C05E5
+P 7950 2350
+F 0 "J2" H 7978 2326 50  0000 L CNN
+F 1 "STEMMA-QT_3V" H 7978 2235 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 7950 2350 50  0001 C CNN
+F 3 "~" H 7950 2350 50  0001 C CNN
+	1    7950 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J3
+U 1 1 5F1C05EF
+P 9450 2350
+F 0 "J3" H 9478 2326 50  0000 L CNN
+F 1 "STEMMA-QT_5V" H 9478 2235 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 9450 2350 50  0001 C CNN
+F 3 "~" H 9450 2350 50  0001 C CNN
+	1    9450 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 2450 9150 2450
+Wire Wire Line
+	9150 2450 9150 2000
+Wire Wire Line
+	7750 2450 7650 2450
+Wire Wire Line
+	9250 2550 9150 2550
+Wire Wire Line
+	9150 2550 9150 2650
+Wire Wire Line
+	7750 2550 7650 2550
+Wire Wire Line
+	7650 2550 7650 2650
+$Comp
+L power:GND #PWR04
+U 1 1 5F1E7CB3
+P 9150 2650
+F 0 "#PWR04" H 9150 2400 50  0001 C CNN
+F 1 "GND" H 9155 2477 50  0000 C CNN
+F 2 "" H 9150 2650 50  0001 C CNN
+F 3 "" H 9150 2650 50  0001 C CNN
+	1    9150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5F1E844A
+P 7650 2650
+F 0 "#PWR02" H 7650 2400 50  0001 C CNN
+F 1 "GND" H 7655 2477 50  0000 C CNN
+F 2 "" H 7650 2650 50  0001 C CNN
+F 3 "" H 7650 2650 50  0001 C CNN
+	1    7650 2650
+	1    0    0    -1  
+$EndComp
+Text Label 8750 2350 0    50   ~ 0
+5V_SDA
+Text Label 8750 2250 0    50   ~ 0
+5V_SCL
+Wire Wire Line
+	8750 2250 9250 2250
+Wire Wire Line
+	8750 2350 9250 2350
+Text Label 7250 2350 0    50   ~ 0
+SDA
+Text Label 7250 2250 0    50   ~ 0
+SCL
+Wire Wire Line
+	7250 2250 7750 2250
+Wire Wire Line
+	7250 2350 7750 2350
+Text Label 9150 2000 0    50   ~ 0
+USB
+$Comp
+L power:+3.3V #PWR0112
+U 1 1 5F1FA5B6
+P 7650 2150
+F 0 "#PWR0112" H 7650 2000 50  0001 C CNN
+F 1 "+3.3V" H 7665 2323 50  0000 C CNN
+F 2 "" H 7650 2150 50  0001 C CNN
+F 3 "" H 7650 2150 50  0001 C CNN
+	1    7650 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 2450 7650 2150
 $EndSCHEMATC
