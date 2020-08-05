@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Clock_MiniM4_Pelican"
-Date "2020-05-31"
-Rev "v01"
+Date "2020-07-24"
+Rev "v02"
 Comp "Cedar Grove Studios"
 Comment1 ""
 Comment2 ""
@@ -1909,24 +1909,24 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x04_Female J2
 U 1 1 5F1C05E5
-P 7950 2350
-F 0 "J2" H 7978 2326 50  0000 L CNN
-F 1 "STEMMA-QT_3V" H 7978 2235 50  0000 L CNN
-F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 7950 2350 50  0001 C CNN
-F 3 "~" H 7950 2350 50  0001 C CNN
-	1    7950 2350
-	1    0    0    -1  
+P 7950 2450
+F 0 "J2" H 7978 2426 50  0000 L CNN
+F 1 "STEMMA-QT_3V" H 7978 2335 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 7950 2450 50  0001 C CNN
+F 3 "~" H 7950 2450 50  0001 C CNN
+	1    7950 2450
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x04_Female J3
 U 1 1 5F1C05EF
-P 9450 2350
-F 0 "J3" H 9478 2326 50  0000 L CNN
-F 1 "STEMMA-QT_5V" H 9478 2235 50  0000 L CNN
-F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 9450 2350 50  0001 C CNN
-F 3 "~" H 9450 2350 50  0001 C CNN
-	1    9450 2350
-	1    0    0    -1  
+P 9450 2450
+F 0 "J3" H 9478 2426 50  0000 L CNN
+F 1 "STEMMA-QT_5V" H 9478 2335 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 9450 2450 50  0001 C CNN
+F 3 "~" H 9450 2450 50  0001 C CNN
+	1    9450 2450
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	9250 2450 9150 2450
