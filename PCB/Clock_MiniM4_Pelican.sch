@@ -5,7 +5,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Clock_MiniM4_Pelican"
-Date "2020-08-03"
+Date "2020-08-05"
 Rev "v02"
 Comp "Cedar Grove Studios"
 Comment1 ""
