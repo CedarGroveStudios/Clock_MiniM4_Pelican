@@ -71,7 +71,7 @@ def detect_dst(datetime):
                                                        2, 0, 0, 0, -1, -1)))
             if time.mktime(datetime) < dst_thresh:
                 return False # xST
-            return True      # DST
+        return True      # DST
 
     # November: First Sunday occurs on the 1st through 7th of the month at
     #    01:00 Standard Time (xST) = 02:00 Daylight Saving Time (xDT)
@@ -86,7 +86,7 @@ def detect_dst(datetime):
                                                        0, 0, 0, -1, -1)))
             if time.mktime(datetime) < xst_thresh:
                 return True  # DST
-            return False     # xST
+        return False     # xST
 
     # Check for Standard Time
     if datetime.tm_mon < 3 or datetime.tm_mon > 11:  # Dec - Feb: xST
