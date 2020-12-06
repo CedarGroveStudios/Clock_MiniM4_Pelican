@@ -1,4 +1,4 @@
-19532212309069197
+19557995310345197
 Adafruit
 1.2-inch_7-segment_LED_HT16K33_backpack
 
@@ -83,6 +83,13 @@ Adafruit_Feather_M4_Express_no_mounting_holes
 0
 28
 28
+Adafruit
+Adafruit_Load_Cell
+
+
+0
+0
+0
 Adafruit
 Adafruit_MTS102_Mini_Panel_Mnt_SPDT_Toggle_Switch
 
@@ -175,6 +182,20 @@ CUI_MJ-3536_3.5mm_TS_angle
 3
 3
 Adafruit
+CedarGroveStudios_TEXT_LOGO_4x2_7mm
+
+
+0
+0
+0
+Adafruit
+CedarGroveStudios_TEXT_LOGO_8x5_4mm
+
+
+0
+0
+0
+Adafruit
 Cedar_Grove_logo_lighted
 
 
@@ -209,6 +230,34 @@ Potentiometer horizontal  Omeg PC16PU  Omeg PC16PU  Omeg PC16PU  Vishay/Spectrol
 0
 5
 5
+Adafruit
+Feather_LOGO_8x4mm
+
+
+0
+0
+0
+Adafruit
+Feather_LOGO_12x6mm
+
+
+0
+0
+0
+Adafruit
+Feather_LOGO_22x10mm
+
+
+0
+0
+0
+Adafruit
+INA260_POWER_SENSOR_BREAKOUT_Adafruit
+
+
+0
+10
+10
 Adafruit
 ItsyBitsy M4 Express
 
@@ -273,9 +322,51 @@ Molex_FFC_52207-1460_14x1mm_Angled
 16
 15
 Adafruit
+Motor_Power_Monitor_TEXT_LOGO_9_4x3_9mm
+
+
+0
+0
+0
+Adafruit
+Motor_Power_Monitor_TEXT_LOGO_10x4_2mm
+
+
+0
+0
+0
+Adafruit
+Motor_Power_Monitor_TEXT_LOGO_13x5_4mm
+
+
+0
+0
+0
+Adafruit
 MountingHole_9.2mm
 Mounting Hole 8.4mm, no annular, M8
 mounting hole 8.4mm no annular m8
+0
+0
+0
+Adafruit
+NAU7802_24-bit_ADC_LOGO_12x4.3mm
+
+
+0
+0
+0
+Adafruit
+NAU7802_STRAIN_LOGO_10x5mm
+
+
+0
+0
+0
+Adafruit
+NAU7802_TEXT_LOGO_22_6x2_1mm
+
+
 0
 0
 0
@@ -490,6 +581,13 @@ SOT-723_hand_solder
 3
 3
 Adafruit
+STEMMA-QT_LOGO_8x2_5mm
+
+
+0
+0
+0
+Adafruit
 STEMMA_logo
 
 
@@ -623,6 +721,13 @@ Through hole socket strip THT 1x03 2.54mm single row
 3
 3
 Adafruit
+TB6612_DUAL_H-BRIDGE_BREAKOUT_Adafruit
+
+
+0
+18
+18
+Adafruit
 TFT_Display_1.44in_128x128_PID2088
 
 
@@ -722,6 +827,13 @@ stringcar_pcb_title_12mm
 0
 Adafruit
 stringcar_title_45mm
+
+
+0
+0
+0
+Adafruit
+terminal_strip_logo_24_4x13_7mm
 
 
 0
