@@ -12,4 +12,4 @@ Photo 1. During assembly.
 ![Clock_MiniM4](https://github.com/CedarGroveStudios/Clock_MiniM4_Pelican/blob/master/photos%20and%20graphics/day-of-week_test.jpg)
 Photo 2. Test of auxilliary day-of-week display.
 
-<a href="https://oshpark.com/shared_projects/wLMeJjED"><img src="https://oshpark.com/packs/media/images/badge-84bb0776ea53b1f532c02df323a90c88.png" alt="Order from OSH Park"></img></a>
+<a href="https://oshpark.com/shared_projects/Iv0tE7jk"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park"></img></a>
