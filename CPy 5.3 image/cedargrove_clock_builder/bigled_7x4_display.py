@@ -1,6 +1,6 @@
 # led_7x4_display.py
 # Class for "standard" LED display with rotary encoder time set function
-# 2020-07-05 Cedar Grove Studios
+# 2023-09-05 Cedar Grove Studios
 
 import time
 import board
@@ -171,9 +171,9 @@ class BigLed7x4Display:
 
         if not date:
             if self._colon:
-                self._display.colon = True
+                self._display.colons[0] = True
             else:
-                self._display.colon = False
+                self._display.colons[0] = False
             self._display.print("{:2}{:02}".format(hour, self._datetime.tm_min))
         else:
             self._clock_month = "{:02d}".format(self._datetime.tm_mon)

@@ -1,15 +1,15 @@
 # led_7x4_display.py
 # Class for "standard" LED display with rotary encoder time set function
-# 2023-09-05 Cedar Grove Studios
+# 2020-03-22 Cedar Grove Studios
 
 import time
 import board
 from digitalio                 import DigitalInOut, Direction, Pull
 import rotaryio as enc
-from adafruit_ht16k33.segments import BigSeg7x4
+from adafruit_ht16k33.segments import Seg7x4
 from simpleio                  import tone
 
-class BigLed7x4Display:
+class Led7x4Display:
 
     def __init__(self, timezone="Pacific", hour_24=False, auto_dst=True,
                  sound=False, brightness=1.0, address=0x70, debug=False):
@@ -36,12 +36,12 @@ class BigLed7x4Display:
         self._sel_sw = DigitalInOut(board.D9)
         self._sel_sw.direction = Direction.INPUT
         self._sel_sw.pull = Pull.UP
-        self._enc = enc.IncrementalEncoder(board.D6, board.D5)
+        self._enc = enc.IncrementalEncoder(board.D5, board.D6)
         # Piezo speaker
         self._piezo = board.D13  # Shared with L13 LED
         # Display
         i2c = board.I2C()
-        self._display = BigSeg7x4(i2c, address=self._address)
+        self._display = Seg7x4(i2c, address=self._address)
         self._display.brightness = brightness
         self._display.fill(0)  # Clear the display
         self._display.print("----")
@@ -171,9 +171,9 @@ class BigLed7x4Display:
 
         if not date:
             if self._colon:
-                self._display.colons[0] = True
+                self._display.colon = True
             else:
-                self._display.colons[0] = False
+                self._display.colon = False
             self._display.print("{:2}{:02}".format(hour, self._datetime.tm_min))
         else:
             self._clock_month = "{:02d}".format(self._datetime.tm_mon)

@@ -192,7 +192,7 @@ class BigLed7x4Display:
     def set_datetime(self, xst_datetime):
         """Manual input of time using a rotary encoder."""
         self._xst_datetime  = xst_datetime
-        self._display.colon = False
+        self._display.colons[0] = False
 
         if self._sel_sw.value:  # Select switch not pressed
             # return datetime, sound flag, and "no change" flag
